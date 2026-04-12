@@ -1,0 +1,47 @@
+ipykernel
+virtualenv
+numpy
+pandas
+scikit-learn
+gensim
+
+# ANN
+tensorflow==2.15.0
+pandas 
+numpy 
+scikit-learn
+tensorboard
+matplotlib
+streamlit
+scikeras
+
+# Langchain
+langchain
+python-dotenv
+langchain_community
+pypdf
+bs4 # to do scraping task
+arxiv # free, open-access online repository of research papers
+pymupdf # required for arxiv ArxivLoader internally uses PyMuPDF to read PDFs
+wikipedia # for WikipediaLoader
+langchain-text-splitters
+langchain-openai # openai embedding
+sentence-transformers # turning sentences, paragraphs, or documents into dense vector embeddings like HuggingFace
+langchain_huggingface
+faiss-cpu # for local, use gpu for cloud
+langchain_chroma
+langchain-core
+langchain_classic
+langchain-ollama # to use ollama because from langchain_community.llms import Ollama is depricated
+
+
+langchain_groq
+fastapi # for langserve
+uvicorn
+langserve
+sse_starlette
+
+
+# siddhardhan 
+nltk
+seaborn
