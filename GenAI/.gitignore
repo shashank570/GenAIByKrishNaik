@@ -1,0 +1,27 @@
+# macOS files
+.DS_Store
+
+# environment files
+.env
+
+# logs
+logs/
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Model files
+*.h5
+
+# virtual environment
+venv/
+env/
+myenv/
+
+# system files
+*.swp
