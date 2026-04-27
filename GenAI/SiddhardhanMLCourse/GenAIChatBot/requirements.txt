@@ -1,0 +1,5 @@
+#Chat bot with langchain and streamlit
+langchain-community
+langchain-groq
+streamlit
+python-dotenv
