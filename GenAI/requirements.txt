@@ -3,10 +3,10 @@ virtualenv
 numpy
 pandas
 scikit-learn
-gensim
+# gensim
 
 # ANN
-tensorflow==2.15.0
+# tensorflow==2.15.0
 pandas 
 numpy 
 scikit-learn
@@ -31,7 +31,6 @@ langchain_huggingface
 faiss-cpu # for local, use gpu for cloud
 langchain_chroma
 langchain-core
-langchain_classic
 langchain-ollama # to use ollama because from langchain_community.llms import Ollama is depricated
 
 
@@ -40,8 +39,30 @@ fastapi # for langserve
 uvicorn
 langserve
 sse_starlette
-
+ 
 
 # siddhardhan 
 nltk
 seaborn
+
+# 15 April
+openai
+google-genai
+groq
+ollama
+langchain-community # use this when working with local model using ollama, or open source model or non openai model
+langchain-openai # use this when you are calling OpenAI models like gpt-4 via API
+langchain-google-genai
+langchain-groq
+langchain-ollama
+llama-index
+llama-index-llms-openai
+llama-index-llms-google-genai
+llama-index-llms-ollama
+llama-index-llms-groq
+
+#Chat bot with langchain and streamlit
+langchain-community
+langchain-groq
+streamlit
+python-dotenv
