@@ -1,8 +1,10 @@
 import os
+from dotenv import load_dotenv
+load_dotenv()
 from llama_index.core.llms import ChatMessage, MessageRole
 from llama_index.llms.groq import Groq
 
-os.environ["GROQ_API_KEY"] = "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"
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 llm = Groq(
     model = "llama-3.1-8b-instant",

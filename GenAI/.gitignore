@@ -22,6 +22,15 @@ __pycache__/
 venv/
 env/
 myenv/
+myvenv/
+crewai-env/
 
 # system files
 *.swp
+
+# vector stores
+vector_db/
+chapters_vector_db/
+doc_vectorstore/
+llama_vector_db/
+chapters_vector_db_dir/

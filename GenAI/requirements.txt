@@ -66,3 +66,14 @@ langchain-community
 langchain-groq
 streamlit
 python-dotenv
+
+# tokenization handson hugging face model
+transformers
+
+requests
+pydantic-ai
+pydantic-ai-slim[groq]
+
+
+autogen-agentchat==0.7.5
+autogen-ext[groq]==0.7.5

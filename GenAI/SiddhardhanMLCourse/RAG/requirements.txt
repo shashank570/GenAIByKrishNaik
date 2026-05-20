@@ -1,0 +1,33 @@
+langchain-community # to connect to vector db, APIs, loader (pdf, website etc) 
+langchain-classic
+langchain-text-splitters # Splits large text into chunks
+langchain-huggingface # Splits large text into chunks for vector embeddings
+chromadb # Stores embeddings (vector DB) -> Save document chunks as vectors
+langchain-chroma # Wrapper to use Chroma inside LangChain
+langchain-groq # Connect LangChain with Groq LLMs
+sentence-transformers # Converts text → vectors (embeddings)
+unstructured # Extract text from documents -> Read PDFs, Word, HTML, etc. -> Convert messy documents → clean text
+unstructured[pdf]
+nltk # NLP library -> Tokenization, Stopword removal, Basic preprocessing
+
+
+llama-index
+llama-index-llms-groq
+llama-index-embeddings-huggingface
+chromadb
+llama-index-vector-stores-chroma
+
+
+python-dotenv
+streamlit
+sentence-transformers
+langchain
+langchain-classic
+langchain-community
+langchain-huggingface
+langchain-text-splitters
+unstructured
+unstructured[pdf]
+langchain-unstructured
+langchain-chroma
+langchain-groq

@@ -1,0 +1,35 @@
+1. install uv:
+macos/linux:
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+windows:
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+
+2. create a project in pycharm; env: choose uv
+3. note the path where uv is installed: /Users/sid/.local/bin/uv
+
+4. Install the dependencies
+uv add "mcp[cli]" httpx python-dotenv requests
+
+5. create mcp server code
+
+6. install claude desktop
+
+7. create claude_desktop_config.json
+
+nano ~/Library/Application\ Support/Claude/claude_desktop_config.json
+
+8. Paste this content in the json file (update uv path and directory path)
+
+
+"mcpServers": {
+    "weather": {
+      "command": "/Users/shashankshukla/.local/bin/uv",
+      "args": [
+        "--directory",
+        "/Users/shashankshukla/Downloads/GenAIByKrishNaik/GenAI/SiddhardhanMLCourse/mcp_server_basics_with_uv",
+        "run",
+        "weather.py"
+      ]
+    }
+  }

@@ -1,0 +1,12 @@
+[project]
+name = "crewai-agent-mcp-tool"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "crewai>=1.14.4",
+    "crewai-tools[mcp]>=1.14.4",
+    "groq>=1.2.0",
+    "litellm>=1.83.0",
+]

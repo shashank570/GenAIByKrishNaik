@@ -1,9 +1,11 @@
 import os
+from dotenv import load_dotenv
+load_dotenv()
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain_groq import ChatGroq
 
-os.environ["GROQ_API_KEY"] = "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"
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 llm = ChatGroq(
     model = "llama-3.1-8b-instant",
