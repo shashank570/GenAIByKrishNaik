@@ -1,7 +1,9 @@
 import os
 from dotenv import load_dotenv
 
-from langchain_ollama import OllamaLLM
+# from langchain_ollama import OllamaLLM
+from langchain_ollama import ChatOllama
+
 import streamlit as st
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
@@ -17,8 +19,7 @@ os.environ["LANGCHAIN_PROJECT"] = os.getenv("LANGCHAIN_PROJECT")
 # Prompt Template
 prompt = ChatPromptTemplate.from_messages(
     [
-        ("system",
-         "You are a helpful assistant. Please respond to the question asked"),
+        ("system", "You are a helpful assistant. Please respond to the question asked"),
         ("user", "Question:{question}")
     ]
 )
@@ -29,7 +30,7 @@ input_text = st.text_input("What question you have in mind?")
 
 
 # Ollama Llama2 model
-llm = OllamaLLM(model="gemma:2b")
+llm = ChatOllama(model="gemma:2b")
 output_parser = StrOutputParser()
 chain = prompt | llm | output_parser
 

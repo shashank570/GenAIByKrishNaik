@@ -1,0 +1,13 @@
+
+conda create -p venv python==3.10 -y
+conda activate venv/
+
+requirements.txt
+langchain-openai
+langchain
+python-dotenv
+langchain-community
+langchain-core
+streamlit
+
+pip install -r requirements.txt

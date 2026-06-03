@@ -1,0 +1,8 @@
+
+uv init
+uv venv
+.venv/Scripts/activate
+uv add -r requirements.txt
+uv add ipykernel # a kernel provided to jupyter notebook
+
+

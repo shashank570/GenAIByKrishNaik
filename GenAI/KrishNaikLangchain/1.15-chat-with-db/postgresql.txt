@@ -1,0 +1,26 @@
+CREATE DATABASE student;
+
+CREATE TABLE STUDENT (
+    NAME VARCHAR(25),
+    CLASS VARCHAR(25),
+    SECTION VARCHAR(25),
+    MARKS INT
+);
+
+INSERT INTO STUDENT (NAME, CLASS, SECTION, MARKS)
+VALUES ('Krish', 'Data Science', 'A', 90);
+
+INSERT INTO STUDENT (NAME, CLASS, SECTION, MARKS)
+VALUES ('Mukesh', 'Data Science', 'B', 100);
+
+INSERT INTO STUDENT (NAME, CLASS, SECTION, MARKS)
+VALUES ('Jacob', 'Data Science', 'B', 100);
+
+SELECT * FROM STUDENT;
+
+
+postgres host : localhost
+postgres port : 5432
+postgres user : shashankshukla
+postgres password : leave blank
+postgres database : postgres

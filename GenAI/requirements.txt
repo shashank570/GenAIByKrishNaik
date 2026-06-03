@@ -77,3 +77,26 @@ pydantic-ai-slim[groq]
 
 autogen-agentchat==0.7.5
 autogen-ext[groq]==0.7.5
+
+
+# langchain-v1-update
+langchain
+langchain-community
+langchain-openai
+langchain-groq
+langchain-google-genai
+
+langchainhub
+
+psycopg2
+numexpr
+
+validators==0.28.1 # to validate the urls
+youtube_transcript_api
+pytube
+unstructured
+
+langchain_huggingface
+huggingface_hub
+cassio # for astradb
+langchain-astradb
